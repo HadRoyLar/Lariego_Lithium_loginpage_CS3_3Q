@@ -15,12 +15,12 @@ html {
 }
 
 
-#name #pass {
-    background-color: white;
-}
-
-#name :active #pass :active {
-    background-color: rgb(161, 161, 161);
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #c9eaff!important;
+  border-color: #96d3ec;
+  color: white;
 }
 
 
