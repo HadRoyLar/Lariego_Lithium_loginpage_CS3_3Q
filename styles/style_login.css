@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color: unset;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    zoom: 100%;
+}
+
+
+#name #pass {
+    background-color: white;
+}
+
+#name :active #pass :active {
+    background-color: rgb(161, 161, 161);
+}
+
+
+
+
+nav {
+    min-width:102vw;
+}
+
+
+
+.navweblogo { 
+    background: url('../images/draftsprite.png') no-repeat 0 30.964%;
+      background-size: 400px 277px;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+    
+    }
+
+#navt {
+    padding-top:18px;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#fpass {
+    text-decoration: none;
+    visibility:hidden;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 80px; 
+    gap: 0px 0px;
+    grid-template-areas: 
+      "left middle right"; 
+}
+
+.footerleft{
+    grid-area:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerlogo {
+    background: url('../images/draftsprite.png') no-repeat 83.333% 0.579%;
+    background-size: 280px 194px;
+    width: 274px;
+    height: 50px;
+  
+  }
+
+#tsize{
+    font-size:10px;
+}
+
+#copyright {
+    padding-top:5px;
+}
+
+.footermiddle{
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    grid-area: middle;
+    z-index:2;
+}
+
+.socialmedia{
+    grid-area: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook {
+  background: url('../images/draftsprite.png') no-repeat 0 65.482%;
+  background-size: 400px 277px;
+  width: 40px;
+  height: 40px;
+}
+
+.reddit {
+  background: url('../images/draftsprite.png') no-repeat 0 82.741%;
+  background-size: 400px 277px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.mail {
+  background: url('../images/draftsprite.png') no-repeat 0 100%;
+  background-size: 400px 277px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.socialmedia a:link {
+  filter:grayscale(100%);
+  padding: 0px 12px;
+}
+
+.socialmedia a:hover {
+  filter:grayscale(90%);
+  text-shadow: 0 0 0 100px;
+}
+
+.socialmedia a:active {
+  filter:grayscale(0%);
+}
+
